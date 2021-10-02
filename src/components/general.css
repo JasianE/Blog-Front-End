@@ -1,0 +1,127 @@
+.blogCard{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-self: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    text-align: center;
+}
+.blogCard:hover{
+    cursor: pointer;
+}
+.navTitle{
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navTitle:hover{
+    cursor: pointer;
+}
+.nav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #d37556;
+    width: 100%;
+    padding-left: 16px;
+    color: white;
+    z-index: 10;
+    height: 20%;
+}
+.about{
+    display: flex;
+    position: absolute;
+    background: linear-gradient(90deg, #e1dad2, #ebe7e1);
+    height: 300px;
+    width: 100%;
+    top: 135px;
+    flex-direction: column;
+    
+}
+.bruh{
+    margin-left: 60px;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.bald{
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+.Home{
+    position: absolute;
+    display: grid;
+    top: 435px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+}
+.activeHome{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.mainBlog{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    text-align: center;
+    color:rgb(0, 0, 0)
+}
+.mainTitle{
+    font-size: 64px;
+    text-decoration: underline;
+}
+.mainMain{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+    text-align: center;
+}
+.textContainer{
+    width: 75%;
+    align-self: center;
+}
+.commentContainer{
+    width: 500px;
+    height: 200px;
+    align-self: center;
+    border-radius: 28px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.commentT{
+    text-align: left;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ext{
+    font-weight: 300;
+}
+.input{
+    width: 500px;
+    height: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 6px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    border-width: 1px;
+}
+.buttonSubmit{
+    margin-top: 30px;
+    width: 504px;
+    height: 40px;
+    border-style: none;
+    font-size: 18px;
+}
+.buttonSubmit:hover{
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+}
